@@ -6,5 +6,6 @@ for i in n:
     count+=1
   elif i==")":
     count1+=1
-if count==count1:
-  print(count)
+
+print(count)
+print(count1)

@@ -6,6 +6,6 @@ while count<n:
         spaces = (n - i) // 2
         stars = i
         print(" " * spaces + "*" * stars+" " * spaces)
-        break
+        
 
         
