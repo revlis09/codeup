@@ -1,7 +1,7 @@
 s = input()
-start, n = map(int, input().split()) 
+start, n = map(int, input().split())
 
-
-sub = s[start-1:start + n-1]
+# 1부터 시작한다고 가정했을 때
+sub = s[start - 1 : start - 1 + n]
 
 print(sub)
