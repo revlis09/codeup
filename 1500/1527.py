@@ -1,0 +1,3 @@
+def num():
+  print("*")
+num()
