@@ -1,3 +1,3 @@
 def num():
-  print("*")
+  print(123)
 num()
