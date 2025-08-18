@@ -1,15 +1,18 @@
-n=int(input())
-m=int(input())
-a=list(map(int, input().split()))
-T=n-m
-last=T
-count=1
-for i in a:
-  if T-i>0:
-    last=T-i
-    count+=1
-    continue
-if last !=0:
-  print(-1)
-else:
-  print(count)
+n = []
+
+for i in range(12):
+    for j in range(60):
+        a = i * 30 + j* 0.5
+        b = j* 6
+
+        if a > b:
+            c = a - b
+        else:
+            c = b - a
+
+        if c == 22:
+            n.append(f"{i:02d}:{j:02d}")
+
+print(len(n))
+for t in n:
+    print(t)

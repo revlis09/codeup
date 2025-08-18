@@ -3,5 +3,6 @@ def gcd(a, b):
         return a
     return gcd(b, a % b)
 
-a, b=int(input())
-print(gcd())
+
+a, b = map(int, input().split())
+print(gcd(a, b))

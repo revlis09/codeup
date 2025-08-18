@@ -12,5 +12,5 @@ for i in range(len(n)):
   elif n[i]== 2 and n_1[i]==2:
     sum_1+=1
   
-print(sum, sum_1)
+print(sum_1, sum)
 

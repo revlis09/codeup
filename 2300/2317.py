@@ -11,7 +11,7 @@ for berry in berries:
     juice.append(berry)
   elif berry > n:
     pie.append(berry)
-  else: # berry == n
+  else:
     raw.append(berry)
 
 result = juice + raw + pie

@@ -3,8 +3,8 @@ num=int(input())
 
 for i in range(12):
     for j in range(60):
-        a = i * 60 + j
-        b = j* 12
+        a = i * 30 + j* 0.5
+        b = j* 6
 
         if a > b:
             c = a - b
