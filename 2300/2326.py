@@ -6,17 +6,17 @@ target = sum(s[a-1:b])
 
 c = 0
 cur = 0
-d = {}
+w = {}
 
 for x in s:
     cur += x
     if cur == target:
         c += 1
-    if cur - target in d:
-        c += d[cur - target]
-    if cur in d:
-        d[cur] += 1
+    if cur - target in w:
+        c += w[cur - target]
+    if cur in w:
+        w[cur] += 1
     else:
-        d[cur] = 1
+        w[cur] = 1
 
 print(c)
