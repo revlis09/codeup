@@ -19,4 +19,4 @@ for x in s:
     else:
         w[cur] = 1
 
-print(c)
+print()
